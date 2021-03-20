@@ -1,3 +1,6 @@
+#Made by GraddZer0
+#Created: 20/03/2021
+
 #imports required libraries
 import datetime
 import math
