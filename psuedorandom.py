@@ -9,10 +9,10 @@ from time import sleep
 #defines function, sets default value to 1 digit.
 def between(minimum=1, maximum = 1):
 	try:
-		numberSize = length(maximum):
-		while(true):
+		numberSize = len(str(maximum))
+		while(1==1):
 			numGen = number(numberSize)
-			if numGen => minimum and numGen <= maximum:
+			if numGen >= minimum and numGen <= maximum:
 				return numGen
 	except TypeError:
 		raise TypeError("Number function expects an integer argument.")
