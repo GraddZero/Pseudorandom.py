@@ -1,4 +1,4 @@
-#Made by GraddZer0
+#Made by GraddZero
 #Created: 20/03/2021
 
 #imports required libraries
@@ -11,7 +11,7 @@ def between(minimum=1, maximum = 1):
 	try:
 		numberSize = len(str(maximum))
 		while(1==1):
-			numGen = number(numberSize)
+			numGen = int(numberSize)
 			if numGen >= minimum and numGen <= maximum:
 				return numGen
 	except TypeError:
