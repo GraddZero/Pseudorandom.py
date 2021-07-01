@@ -12,6 +12,7 @@ def between(minimum=1, maximum = 1):
 		numberSize = len(str(maximum))
 		while(1==1):
 			numGen = int(numberSize)
+			numGen = number(numberSize)
 			if numGen >= minimum and numGen <= maximum:
 				return numGen
 	except TypeError:
